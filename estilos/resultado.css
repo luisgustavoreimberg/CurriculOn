@@ -1,0 +1,69 @@
+main{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    width: 80%;
+    min-height: 450px;
+    margin: auto;
+    padding: 2% 1%;
+}
+h2{
+    text-align: center;
+}
+
+.resultado-vaga{
+    border-top: 2px solid rgba(0, 0, 0, 0.7);
+    width: 95%;
+    height: 350px;
+    margin: auto;
+    overflow-y: auto;
+    padding: 1%;
+
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.sem-resultados{
+    width: 60%;
+    margin: auto;
+}
+.sem-resultados h3{
+    text-align: center;
+}
+.sem-resultados .bi{
+    font-size: 4rem;
+}
+
+.site-logo{
+    width: 100px;
+}
+.vaga-head{
+    background-color: #198754;
+    color: white;
+    padding: 1% 2%;
+}
+
+.navbar-brand{
+    overflow-x: auto;
+}
+
+.accordion-body{
+    white-space: pre-line;
+}
+
+.palavras-chaves-tags{
+    background-color: #198754;
+    background-color: #198754;
+    color: white;
+    padding: 0.5% 2%;
+    margin: 0.5%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main{
+        width: 90%;
+    }
+}

@@ -1,0 +1,47 @@
+.spinner-border{
+    width: 5rem;
+    height: 5rem;
+}
+
+.busca-loading{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 40%;
+    margin: 2% auto 5% auto;
+    padding: 2%;
+}
+.loading{
+    text-align: center;
+}
+.busca-concluida{
+    text-align: center;
+    font-size: 5rem;
+}
+.passos-load{
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+.passo{
+    color: rgb(41, 41, 41);
+    font-weight: 600;
+}
+.passo-sucesso{
+    color: #198754;
+}
+
+@media only screen and (max-width: 1000px) {
+    .busca-loading{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .busca-loading{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .busca-loading{
+        width: 90%;
+    }
+}
