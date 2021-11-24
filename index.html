@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./estilos/index.css">
     <script src="./scripts/vagasScript.js"></script>
     <script src="./scripts/utilsJson.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
     <title>CurriculOn Plataform</title>
 </head>
@@ -131,6 +132,36 @@
                 </ul>
             </div>
         </div>
+
+        <div id="modal-info-teste" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title">Atenção</h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        O projeto está <strong>em desenvolvimento</strong><br/>
+                        Sendo assim, os resultados demonstrados na plataforma são fixos para fins de teste<br/>
+                        Nossa equipe está trabalhando para incluir a busca inteligente de vagas em uma próxima atualização
+                    </p>
+                    <p clss="assinatura">
+                        Atenciosamente,<br/>
+                        Equipe CurriculOn
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Ok, estou ciente</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#modal-info-teste').modal('show');
+            });
+        </script>
 
         <footer>
             CurriculOn&copy; Soluções e Consultoria em Carreira

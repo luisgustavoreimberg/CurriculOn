@@ -56,3 +56,7 @@ function validaResultados(){
         document.getElementById('mensagem-sem-resultado').classList.remove('hidden');
     }
 }
+
+function mostraAviso(){
+    new bootstrap.Toast(document.getElementById('mensagem-site-teste')).show();
+}

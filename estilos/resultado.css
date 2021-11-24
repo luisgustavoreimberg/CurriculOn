@@ -61,6 +61,15 @@ h2{
     border-radius: 10px;
 }
 
+.toast-header{
+    background-color: #ffc107;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+}
+.toast-body{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}
 
 @media only screen and (max-width: 600px) {
     main{

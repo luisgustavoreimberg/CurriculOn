@@ -64,6 +64,27 @@
             </div>
         </main>
 
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="mensagem-site-teste" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                <div class="toast-header">
+                    <i class="bi bi-exclamation-triangle-fill"></i>&nbsp;
+                    <strong class="me-auto">Atenção</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p>
+                        O projeto está <strong>em desenvolvimento</strong><br/>
+                        Sendo assim, os resultados demonstrados nessa página são fixos para fins de teste<br/>
+                        Nossa equipe está trabalhando para incluir a busca inteligente de vagas em uma próxima atualização
+                    </p>
+                    <p clss="assinatura">
+                        Atenciosamente,<br/>
+                        Equipe CurriculOn
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <footer>
             CurriculOn&copy; Soluções e Consultoria em Carreira
         </footer>
@@ -72,6 +93,7 @@
 
 <script>
     validaResultados();
+    mostraAviso();
 </script>
 
 </html>
